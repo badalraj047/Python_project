@@ -16,7 +16,7 @@ def calcAngle(h,m):
 		
 		angle = min(360 - angle, angle)
 		
-		return ("{0:.0f}".format(angle))
+		return ("{0:.2f}".format(angle))
 a=[int(item) for item in input("input: ").split(":")]
 b=list(a)
 h = b[0]
